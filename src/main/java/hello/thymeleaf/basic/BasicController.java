@@ -56,6 +56,7 @@ public class BasicController {
         return "basic/basic-objects";
     }
 
+
     @Component("helloBean")
     static class HelloBean {
         public String hello(String data) {
