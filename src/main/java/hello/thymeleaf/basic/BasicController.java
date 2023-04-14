@@ -60,6 +60,7 @@ public class BasicController {
     @Component("helloBean")
     static class HelloBean {
         public String hello(String data) {
+            // test
             return "Hello " + data;
         }
     }
